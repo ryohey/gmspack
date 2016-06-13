@@ -1,0 +1,6 @@
+output
+*.out
+*.dSYM
+data.win
+ignore
+*.win
