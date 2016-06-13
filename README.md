@@ -8,7 +8,7 @@ I using data structures described in [Altar.NET](https://gitlab.com/PoroCYon/Alt
 ## Motivation
 
 - I want to modify the data.win file especially to apply translation to Undertale on Mac OS X.
-- plain C, less library dependencies, short code for the code portability
+- plain C, less library dependencies, short code for the code portability.
 
 ## Compile and Run
 
@@ -23,4 +23,5 @@ gcc -std=c99 main.c; ./a.out -e data.win
 
 ## Contribution
 
-I hope you to progress 
+I want you to contribute to gmspack.
+
