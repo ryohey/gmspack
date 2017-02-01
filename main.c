@@ -171,6 +171,7 @@ int main(int argc, char *argv[]) {
                         readTarray(TextureAddress, addresses, entryNum, file);
 
                         for (int i = 0; i < entryNum; i++) {
+                            fseek(file, addresses[i].offset, SEEK_SET);
                             uint32_t nextOffset = i < entryNum - 1 ? addresses[i + 1].offset : chunkLast;
                             uint32_t entrySize = nextOffset - addresses[i].offset;
                             copyToFile(file, entrySize, "%d.png", i);
