@@ -3,7 +3,7 @@
 Extract the data.win file produced by Game Maker Studio
 
 This program is mainly porting from [UndertaleTools](https://github.com/AlexWaveDiver/UndertaleTools).
-I using data structures described in [Altar.NET](https://gitlab.com/PoroCYon/Altar.NET/) and [Mirrawrs](http://rawr.ws/undertale/decompilation).
+I using data structures described in [Altar.NET](https://gitlab.com/PoroCYon/Altar.NET/) and Mirrawrs
 
 ## Motivation
 
